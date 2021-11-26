@@ -1,0 +1,3 @@
+const readFromFile = () => {};
+
+const writeToFile = () => {};
