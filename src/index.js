@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.json({ message: "testing server" });
+});
+
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
