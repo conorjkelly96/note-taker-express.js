@@ -1,8 +1,11 @@
-// read from JSON file and return array of notes
-const getNotes = () => {};
+const { Router } = require("express");
 
-// validate POST body & create new note object
-const createNote = () => {};
+const apiRoutes = require("./apiRoutes");
+const viewRoutes = require("./viewRoutes");
 
-// read from JSON, check note exists & remove note
-const deleteNotes = () => {};
+const router = Router();
+
+router.use("/api", apiRoutes);
+router.use("/", viewRoutes);
+
+module.exports = router;
