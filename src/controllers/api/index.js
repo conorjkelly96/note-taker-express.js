@@ -12,12 +12,12 @@ const addNoteToList = async (req, res) => {
     return res.status(400).json({ error: "Invalid note id" });
   }
 
-  const data = await getMovieById(note);
+  const data = await getNoteById(note);
 
   if (data) {
     const notes = getNotesFromFile("favourites");
     notes.push(data);
-    writeDataToFile("favourites", JSON.stringify(notes));
+    writeDataToFile("notes", JSON.stringify(notes));
     return res.json({ data: "Successfully added note." });
   }
 
