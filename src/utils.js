@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const fileName = "db";
 
 // read from JSON file and return array of notes
 const getNotesFromFile = () => {
@@ -17,7 +18,7 @@ const createNoteFromFile = () => {
 };
 
 // read from JSON, check note exists & remove note
-const deleteNotesFromFile = () => {};
+const deleteNotesFromFile = (fileName) => {};
 
 module.exports = {
   getNotesFromFile,
