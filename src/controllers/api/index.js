@@ -15,7 +15,7 @@ const addNoteToList = async (req, res) => {
   const data = await getNoteById(note);
 
   if (data) {
-    const notes = getNotesFromFile("favourites");
+    const notes = getNotesFromFile("notes");
     notes.push(data);
     writeDataToFile("notes", JSON.stringify(notes));
     return res.json({ data: "Successfully added note." });
