@@ -1,27 +1,25 @@
+// import fs and path modules for reading and writing purposes
 const fs = require("fs");
 const path = require("path");
-const fileName = "db";
 
 // read from JSON file and return array of notes
-const getNotesFromFile = () => {
+const readFromFile = (fileName) => {
   const jsonData = fs.readFileSync(
-    path.join(__dirname, `/db/${fileName}.json`),
+    path.join(__dirname, `../src/db/${fileName}.json`),
     "utf-8"
   );
-  const data = JSON.parse(jsonData);
-  return data;
+  return JSON.parse(jsonData);
 };
 
 // validate POST body & create new note object
-const createNoteFromFile = () => {
-  fs.writeFileSync(path.join(__dirname, `/db/${fileName}.json`), data);
+const writeToFile = (fileName, data) => {
+  fs.writeFileSync(
+    path.join(__dirname, `../src/db/${fileName}.json`),
+    JSON.stringify(data)
+  );
 };
 
-// read from JSON, check note exists & remove note
-const deleteNotesFromFile = (fileName) => {};
-
 module.exports = {
-  getNotesFromFile,
-  createNoteFromFile,
-  deleteNotesFromFile,
+  readFromFile,
+  writeToFile,
 };
