@@ -47,10 +47,11 @@ const updateUserNotes = (req, res) => {
 
     const { id } = req.params;
 
-    const index = data.findIndex((each) => each.id === id);
+    // const noteNumber = data.filter((each) => each.id === id);
+    const noteNumber = data.findIndex((each) => each.id === id);
 
-    noteData[index].title = title;
-    noteData[index].text = text;
+    noteData[noteNumber].title = title;
+    noteData[noteNumber].text = text;
 
     // update the note in db.json
     writeToFile("db", noteData);
