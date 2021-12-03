@@ -1,1 +1,37 @@
-[{"title":"Conor Kelly","text":"conor","id":"cf94c1d7-6242-42f2-903c-e93e5e71cb06"},{"title":"Conor","text":"Conor","id":"63b98f98-b7e3-465d-9829-66b8558bd039"},{"title":"Node.js","text":"Cannot use arrow function when using methods. This always points to an object the method is part of Implicit binding of 'this' to the object the method belongs to Use function declarations when working with method - Bio-Generator (folder - right click)","id":"03ff6c28-b56e-4154-9dc6-865f61544c15"},{"title":"npm packages","text":"When installing packages, always install packages on the top","id":"2b6d575f-049c-42ff-bc2d-5ff20789ef31"},{"title":"Assembly Code","text":"In computer programming, assembly language, sometimes abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions","id":"4c294337-6a11-4119-81c9-febb2978124e"},{"title":"Interpreted vs Compiled Languages","text":"A compiled language is a programming language whose implementations are typically compilers and not interpreters. An interpreted language is a programming language whose implementations execute instructions directly and freely, without previously compiling a program into machine-language instructions","id":"f3a0101f-326b-4c73-8394-15b3d14d3a2c"},{"title":"Load Balancing","text":"Load balancing is defined as the methodical and efficient distribution of network or application traffic across multiple servers in a server farm. Each load balancer sits between client devices and backend servers, receiving and then distributing incoming requests to any available server capable of fulfilling them.","id":"201f3edc-db61-455b-9cbd-a3d1a0f16a49"}]
+[
+  {
+    "title": "Conor Kelly",
+    "text": "conor",
+    "id": "cf94c1d7-6242-42f2-903c-e93e5e71cb06"
+  },
+  {
+    "title": "Conor",
+    "text": "Conor",
+    "id": "63b98f98-b7e3-465d-9829-66b8558bd039"
+  },
+  {
+    "title": "Node.js",
+    "text": "Cannot use arrow function when using methods. This always points to an object the method is part of Implicit binding of 'this' to the object the method belongs to Use function declarations when working with method - Bio-Generator (folder - right click)",
+    "id": "03ff6c28-b56e-4154-9dc6-865f61544c15"
+  },
+  {
+    "title": "npm packages",
+    "text": "When installing packages, always install packages on the top",
+    "id": "2b6d575f-049c-42ff-bc2d-5ff20789ef31"
+  },
+  {
+    "title": "Assembly Code",
+    "text": "In computer programming, assembly language, sometimes abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions",
+    "id": "4c294337-6a11-4119-81c9-febb2978124e"
+  },
+  {
+    "title": "Interpreted vs Compiled Languages",
+    "text": "A compiled language is a programming language whose implementations are typically compilers and not interpreters. An interpreted language is a programming language whose implementations execute instructions directly and freely, without previously compiling a program into machine-language instructions",
+    "id": "f3a0101f-326b-4c73-8394-15b3d14d3a2c"
+  },
+  {
+    "title": "Load Balancing",
+    "text": "Load balancing is defined as the methodical and efficient distribution of network or application traffic across multiple servers in a server farm. Each load balancer sits between client devices and backend servers, receiving and then distributing incoming requests to any available server capable of fulfilling them.",
+    "id": "201f3edc-db61-455b-9cbd-a3d1a0f16a49"
+  }
+]
