@@ -6,7 +6,7 @@ A full stack web application allowing users to create, track and delete notes le
 
 # Links
 
-[Deployed Heroku link](https://dashboard.heroku.com/apps/infinite-forest-43221)
+[Deployed Heroku link](https://dashboard.heroku.com/apps/note-taker-application-express)
 
 ## User Stories
 
