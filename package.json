@@ -1,7 +1,7 @@
 {
-  "name": "src",
+  "name": "note-taker-express-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web application designed to allow users to make and save notes. Leveraging express.js",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
