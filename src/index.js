@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const { Router } = require("express");
+// const { Router } = require("express");
 const routes = require("./routes");
 // const apiRoutes = require("./routes/apiRoutes");
 // const viewRoutes = require("./routes/viewRoutes");
@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-const router = Router();
+// const router = Router();
 
 // router.use("/api", apiRoutes);
 // router.use("/", viewRoutes);
